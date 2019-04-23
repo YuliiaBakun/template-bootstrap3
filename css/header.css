@@ -1,0 +1,92 @@
+.rs-header .header {
+    max-width: 1920px;
+    width: 100%;
+    position: absolute;
+    top: 53%;
+    color: #fff;
+}
+
+.rs-header .header .header-title {
+    margin-bottom: 1px;
+    font-size: 21px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+.rs-header .header .header-logo {
+    margin-bottom: 17px;
+}
+
+.rs-header .header .header-menu {
+    margin-bottom: 43px;
+    margin-left: -34px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.rs-header .header .header-menu ul {
+    display: flex;
+    padding-left: 0;
+}
+
+.rs-header .header .header-menu li {
+    margin-right: 12px;
+    list-style: none;
+    letter-spacing: 0.3px;
+}
+
+.rs-header .header .header-menu a {
+    display: inline-block;
+    color: inherit;
+    padding: 8px 33px 8px 32px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+.rs-header .header .header-menu .active-link {
+    border: 1px solid #fdd245;
+    border-radius: 50px;
+}
+
+.rs-header .header .header-menu a:hover {
+    color: #fdd245;
+    text-decoration: none;
+}
+
+.rs-header .header .header-social a {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.rs-header .header .header-social a:nth-child(2) {
+    margin-right: 6px;
+}
+
+.rs-header .header .header-social a:last-child {
+    width: 34px;
+    height: 34px;
+}
+
+.rs-header .header .header-social img {
+    opacity: .9;
+}
+
+/* media queries */
+@media (max-width: 767px) {
+    .rs-header .header {
+        top: 10%;
+    }
+
+    .rs-header .header .header-menu {
+        margin-left: 0;
+    }
+
+    .rs-header .header .header-menu ul {
+        flex-direction: column;
+    }
+
+    .rs-header .header .header-menu li {
+        margin-right: 0;
+    }
+}

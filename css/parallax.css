@@ -1,0 +1,11 @@
+/* Параллакс баннер */
+.rs-parallax .banner-parallax {
+    max-width: 1920px;
+    width: 100%;
+    height: 340px;
+    margin: 0 auto;
+}
+
+.rs-parallax .banner-parallax .banner {
+    height: 340px;
+}

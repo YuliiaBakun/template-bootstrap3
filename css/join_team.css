@@ -1,0 +1,144 @@
+/* Присоединиться к команде */
+.join-team .join-team-wrap {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 0 184px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.join-team .join-team-wrap h2 {
+    margin-bottom: 56px;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 70px;
+    color: #73612b;
+    letter-spacing: 1px;
+}
+
+.join-team .join-team-wrap input {
+    display: block;
+    max-width: 420px;
+    width: 100%;
+    padding: 11px 10px 9px 0;
+    margin-bottom: 17px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #949998;
+    border: none;
+    border-bottom: 1px solid #4c4c4c;
+    background: none;
+}
+
+.join-team .join-team-wrap input:last-child {
+    margin-bottom: 26px;
+}
+
+::-webkit-input-placeholder {
+    color:#4c4c4c;
+}
+::-moz-placeholder {
+    color:#4c4c4c;
+}
+:-moz-placeholder {
+    color:#4c4c4c;
+}
+
+:-ms-input-placeholder {
+    color:#4c4c4c;
+}
+
+.join-team .join-team-wrap form p {
+    margin-bottom: 27px;
+    margin-top: 27px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #aeb4b3;
+    line-height: 20px;
+}
+
+.join-team .join-team-wrap form p a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.join-team .join-team-wrap .form-btn {
+    font-size: 13px;
+    color: #000;
+    padding: 13px 42px;
+    background: #fff;
+    border: 1px solid #73612b;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.join-team .join-team-wrap .form-btn:hover {
+    background: #73612b;
+    color: #fff;
+}
+
+.join-team .join-team-wrap .form-btn i {
+    margin-right: 10px;
+}
+
+.join-team .join-team-wrap .social-block {
+    font-size: 21px;
+    line-height: 70px;
+    color: #949998;
+}
+
+.join-team .join-team-wrap .social-block img {
+    margin-right: 21px;
+}
+
+.join-team .join-team-wrap .social-block a {
+    color: inherit;
+    transition: all .3s;
+}
+
+.join-team .join-team-wrap .social-block a:hover {
+    color: #73612b;
+    text-decoration: none;
+}
+
+/* media queries */
+@media (max-width: 1199px) {
+    .join-team .join-team-wrap {
+        padding: 60px 0;
+        background: #fff;
+    }
+
+    .join-team .join-team-wrap h2 {
+        margin-bottom: 40px;
+        font-size: 29px;
+        line-height: 31px;
+    }
+
+    .join-team .join-team-wrap input {
+        font-size: 16px;
+    }
+
+    .join-team .join-team-wrap .social-block {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .join-team .join-team-wrap .form-btn {
+        margin-bottom: 20px;
+    }
+
+    .join-team .join-team-wrap form,
+    .join-team .join-team-wrap h2 {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .join-team .join-team-wrap {
+        background: #fff;
+    }
+}

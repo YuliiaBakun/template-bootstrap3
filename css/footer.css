@@ -1,0 +1,107 @@
+/* Footer */
+.rs-footer .footer {
+    max-width: 1920px;
+    width: 100%;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #949998;
+    font-size: 12px;
+    background: #fff;
+}
+
+.rs-footer .footer .copyright {
+    margin-bottom: 5px;
+}
+.rs-footer .footer .carmen-txt {
+    text-transform: uppercase;
+    margin-right: 2px;
+}
+
+.rs-footer .footer .copyright .icon {
+    margin-right: 2px;
+    font-family: 'Font Awesome\ 5 Free';
+}
+
+.rs-footer .footer .footer-menu ul {
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.rs-footer .footer .footer-menu li {
+    margin-right: 29px ;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.rs-footer .footer .footer-menu li:last-child {
+    margin-right: 0;
+}
+
+.rs-footer .footer .footer-menu a {
+    color: #000;
+    transition: all .3s;
+}
+
+.rs-footer .footer .footer-menu a:hover {
+    text-decoration: none;
+    color: #73612b;
+}
+
+.rs-footer .footer .footer-right-block {
+    margin-top: 28px;
+}
+
+.rs-footer .footer .footer-right-block span {
+    margin-right: 2px;
+    margin-left: 140px;
+}
+
+.rs-footer .footer .footer-right-block a {
+    vertical-align: inherit;
+    color: inherit;
+    font-size: 16px;
+}
+
+/* media queries */
+
+@media (max-width: 1325px) {
+    .rs-footer .footer .footer-right-block span {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .rs-footer .footer .footer-menu li {
+        margin-right: 23px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .rs-footer .footer .footer-right-block span {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .rs-footer .footer .footer-right-block {
+        margin-top: 15px;
+    }
+
+    .rs-footer .footer .copyright {
+        margin-bottom: 15px;
+    }
+
+    .rs-footer .footer .footer-menu li {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .rs-footer .footer .footer-menu li {
+        font-size: 13px;
+    }
+}

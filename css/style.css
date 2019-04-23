@@ -1,0 +1,42 @@
+@import url(../css/banner.css);
+@import url(../css/header.css);
+@import url(../css/foto-video.css);
+@import url(../css/parallax.css);
+@import url(../css/join_team.css);
+@import url(../css/footer.css);
+
+* {
+    outline: none !important;
+}
+
+a:link,
+a:hover {
+    text-decoration: none;
+}
+
+/* Главный баннер */
+.main-banner {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rs-header .header .header-logo {
+    margin-bottom: 50px;
+}
+
+.rs-header .header .header-title {
+    margin-bottom: 8px;
+}
+
+.rs-header .header .header-menu {
+    margin-bottom: 49px;
+}
+
+@media (max-width: 767px) {
+    .rs-header .header .header-menu a {
+        padding-left: 0;
+    }
+}
